@@ -1,0 +1,3 @@
+<view class="intro">
+  <text-area value="{{textVal}}" placeholder="这是个多行文本框" placeholder-style="color: #666"></text-area>
+</view>

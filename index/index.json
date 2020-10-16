@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "text-area": "../components/text-area/index"
+  }
+}

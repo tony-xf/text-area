@@ -1,0 +1,6 @@
+<view class="text_area_view">
+    <view bindtap='handleFocus' wx:if="{{hidden == true}}" style="{{textareaVal? '':placeholderStyle}}" class="text_view">{{textareaVal?textareaVal: placeholder}}</view>
+    <view wx:if="{{hidden == false}}">
+        <textarea placeholder='{{placeholder}}' auto-height value='{{textareaVal}}' fixed='true' bindinput='textarea' focus="{{focus}}" bindblur="leaveFocus"  maxlength="{{maxlength}}" placeholder-style="{{placeholderStyle}}"></textarea>
+    </view>
+</view>
